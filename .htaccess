@@ -1,5 +1,8 @@
+#RewriteEngine On
+#RewriteBase /
+#RewriteRule ^$           wiki.php  [L]
+#RewriteRule ^index\.php$ wiki.php  [L]
+#RewriteRule ^([A-Z0-9\xa0-\xff].*)$ wiki.php?page=$1  [QSA,L]
+
 RewriteEngine On
-RewriteBase /
-RewriteRule ^$           wiki.php  [L]
-RewriteRule ^index\.php$ wiki.php  [L]
-RewriteRule ^([A-Z0-9\xa0-\xff].*)$ wiki.php?page=$1  [QSA,L]
+RewriteRule ^([^/d]+)/?$ wiki.php?page=$1 [QSA]
