@@ -9,7 +9,7 @@ if ( $page == "") {
 print "<html>
 	<head>
 		<title>Thunix Wiki - $page</title>
-		<link rel='stylesheet' type='text/css' href='includes/theme.css'>
+		<link rel='stylesheet' type='text/css' href='includes/site.css'>
 	</head>
 	<body>";
 echo ( shell_exec("/usr/bin/pandoc includes/header.md") );
