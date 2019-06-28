@@ -1,4 +1,4 @@
-# Main Page
+## Main Page
 
 * [SSH and keys](ssh)
 * [Email](email)
