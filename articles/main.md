@@ -2,5 +2,4 @@
 
 * [SSH and keys](ssh)
 * [Email](email)
-
 * [Sandbox Page](playground)
