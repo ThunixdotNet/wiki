@@ -1,8 +1,19 @@
 <?php
 
-$page= $_GET['page'];
+$page = $_GET['page'];
 
-print "<html><body>";
-echo ( shell_exec("/usr/bin/pandoc $page.md") );
-print "</body></html>";
+if ( $page == "") {
+	$page = "main";
+	}
+
+print "<html>
+	<head>
+		<title>Thunix Wiki - $page</title>
+	</head>
+	<body>";
+
+echo ( shell_exec("/usr/bin/pandoc /var/www/wiki.thunix.net/articles/$page.md") );
+
+print "	</body>
+</html>";
 ?>
