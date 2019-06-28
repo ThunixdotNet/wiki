@@ -9,10 +9,12 @@ if ( $page == "") {
 print "<html>
 	<head>
 		<title>Thunix Wiki - $page</title>
+		<link rel='stylesheet' type='text/css' href='includes/theme.css'>
 	</head>
 	<body>";
-
-echo ( shell_exec("/usr/bin/pandoc /var/www/wiki.thunix.net/articles/$page.md") );
+echo ( shell_exec("/usr/bin/pandoc includes/header.md") );
+echo ( shell_exec("/usr/bin/pandoc articles/$page.md") );
+echo ( shell_exec("/usr/bin/pandoc includes/footer.md") );
 
 print "	</body>
 </html>";
