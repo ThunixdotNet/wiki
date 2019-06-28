@@ -5,4 +5,6 @@
 #RewriteRule ^([A-Z0-9\xa0-\xff].*)$ wiki.php?page=$1  [QSA,L]
 
 RewriteEngine On
+RewriteRule ^$           main  [L]
+RewriteRule ^index\.php$ wiki.php  [L]
 RewriteRule ^([^/d]+)/?$ wiki.php?page=$1 [QSA]
