@@ -13,7 +13,9 @@ print "<html>
 	</head>
 	<body>";
 echo ( shell_exec("/usr/bin/pandoc includes/header.md") );
+print "<hr/>";
 echo ( shell_exec("/usr/bin/pandoc articles/$page.md") );
+print "<hr/>";
 echo ( shell_exec("/usr/bin/pandoc includes/footer.md") );
 
 print "	</body>
