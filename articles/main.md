@@ -5,5 +5,6 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test
 
 test
+<a href="wiki.php?page=tableofcontents">test link</a>
 
 adding some test
