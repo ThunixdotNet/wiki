@@ -6,7 +6,8 @@ if ( $page == "") {
 	$page = "main";
 	}
 
-print "<html>
+print "<!DOCTYPE html>
+<html lang="en">
 	<head>
 		<title>Thunix Wiki - $page</title>
 		<link rel='stylesheet' type='text/css' href='includes/site.css'>
