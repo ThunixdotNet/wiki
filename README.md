@@ -1,9 +1,9 @@
-<center><h1>Official Thunix Wiki.</h1></center>       <!-- Make Image?-->
-<!-- Buttons Here... -->
-#### Welcome to the Offical Thunix Wiki!
+# Thunix Wiki
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test
+Editing the wiki documents is easy.  They are all stored in ./articles, and are all markdown format.
 
-test
+If you're feeling froggy, you can also do PR's for the code running the wiki, style sheets, etc etc.
 
-adding some test
+Support files (Header, footer, site.css) are in ./includes.
+
+So, to update the wiki, just submit a PR for it :)
