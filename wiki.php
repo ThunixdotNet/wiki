@@ -15,7 +15,7 @@ print "<!DOCTYPE html>
 	<body>";
 echo ( shell_exec("/usr/bin/pandoc includes/header.md") );
 
-print "<hr/>
+print "<hr>
 	<div id='body' style='width: 90%;'>
 		<div id='sidebar' style='width: 20%;float:left;'>";
 echo ( shell_exec("/usr/bin/pandoc includes/sidebar.md") );
@@ -25,7 +25,7 @@ print "	</div>
 
 echo ( shell_exec("/usr/bin/pandoc articles/$page.md") );
 
-print "	</div><hr/>
+print "	</div><hr>
 	</div>
 	<div id='footer' style='clear:both;'>";
 
