@@ -17,11 +17,11 @@ echo ( shell_exec("/usr/bin/pandoc includes/header.md") );
 
 print "<hr/>
 	<div id='body' style='width: 90%;'>
-		<div id='sidebar' style='width: 20%;'>";
+		<div id='sidebar' style='width: 20%; float:left;'>";
 echo ( shell_exec("/usr/bin/pandoc includes/sidebar.md") );
 
 print "	</div>
-	<div id='content' style='width: 80%;'>";
+	<div id='content' style='width: 80%;float:right'>";
 
 echo ( shell_exec("/usr/bin/pandoc articles/$page.md") );
 
