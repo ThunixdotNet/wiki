@@ -25,8 +25,8 @@ print "	</div>
 
 echo ( shell_exec("/usr/bin/pandoc articles/$page.md") );
 
-print "	</div><hr>
-	</div>
+print "	</div>
+	</div><hr>
 	<div id='footer' style='clear:both;'>";
 
 echo ( shell_exec("/usr/bin/pandoc includes/footer.md") );
