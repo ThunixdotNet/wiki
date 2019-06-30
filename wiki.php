@@ -10,7 +10,7 @@ print "<!DOCTYPE html>
 <html lang='en'>
 	<head>
 		<title>Thunix Wiki - $page</title>
-		<link rel='stylesheet' type='text/css' href='includes/site.css'>
+		<link rel='stylesheet' type='text/css' href='/includes/site.css'>
 	</head>
 	<body>";
 echo ( shell_exec("/usr/bin/pandoc includes/header.md") );
