@@ -7,7 +7,7 @@ if ( $page == "") {
 	}
 
 print "<!DOCTYPE html>
-<html lang='e'>
+<html lang='en'>
 	<head>
 		<title>Thunix Wiki - $page</title>
 		<link rel='stylesheet' type='text/css' href='includes/site.css'>
@@ -16,17 +16,18 @@ print "<!DOCTYPE html>
 echo ( shell_exec("/usr/bin/pandoc includes/header.md") );
 
 print "<hr/>
-	<div id='content' style='width=90%'>
-		<div id='sidebar' style='20%;float:left;'>";
+	<div id='body' style='width: 90%;'>
+		<div id='sidebar' style='width: 20%;float:left;'>";
 echo ( shell_exec("/usr/bin/pandoc includes/sidebar.md") );
 
 print "	</div>
-	<div='content' style='width=80%'; float:right>";
+	<div id='content' style='width: 80%; float:right;'>";
 
 echo ( shell_exec("/usr/bin/pandoc articles/$page.md") );
 
 print "	</div><hr/>
-	</div>";
+	</div>
+	<div id=footer style='clear:both;'";
 
 echo ( shell_exec("/usr/bin/pandoc includes/footer.md") );
 
