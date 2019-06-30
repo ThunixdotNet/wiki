@@ -1,4 +1,4 @@
-<!--<center><h1>Official Thunix Wiki.</h1></center>   ~Need to Return to this at some point.-->
+<!--<h1 style='text-align: center;'>Official Thunix Wiki.</h1>   ~Need to Return to this at some point.-->
 <!-- Buttons Here... -->
 #### Welcome to the Offical Thunix Wiki!
 
