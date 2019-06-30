@@ -21,7 +21,7 @@ print "<hr>
 echo ( shell_exec("/usr/bin/pandoc includes/sidebar.md") );
 
 print "	</div>
-	<div id='content' style='width: 80%; float:right;'>";
+	<div id='content' style='width: 78%; float:right;'>";
 
 echo ( shell_exec("/usr/bin/pandoc articles/$page.md") );
 
