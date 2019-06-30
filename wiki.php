@@ -27,10 +27,11 @@ echo ( shell_exec("/usr/bin/pandoc articles/$page.md") );
 
 print "	</div><hr/>
 	</div>
-	<div id=footer style='clear:both;'";
+	<div id='footer' style='clear:both;'>";
 
 echo ( shell_exec("/usr/bin/pandoc includes/footer.md") );
 
-print "	</body>
+print "		</div>
+	</body>
 </html>";
 ?>
