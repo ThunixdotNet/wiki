@@ -7,7 +7,7 @@ if ( $page == "") {
 	}
 
 print "<!DOCTYPE html>
-<html lang='e'>
+<html lang='en'>
 	<head>
 		<title>Thunix Wiki - $page</title>
 		<link rel='stylesheet' type='text/css' href='includes/site.css'>
