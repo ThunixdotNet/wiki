@@ -1,1 +1,3 @@
+<center>
 # Thunix Wiki
+</center>
