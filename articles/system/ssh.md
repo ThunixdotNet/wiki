@@ -1,7 +1,5 @@
-## SSH and Thunix (And magic!) 
-===
+# SSH Key Pairs and Registration
 
-### SSH Key Pairs and Registration
 ---
 
 When you [sign up](https://www.thunix.net/signup.php) for an account on thunix, you'll be given remote access to a Linux shell server, with web hosting, gopher hosting and email. And because of our [GDPR and privacy policy](https://www.thunix.net/gdpr.php), we take security seriously. This is why we use SSH key pairs to grant access to our server through SSH or SFTP.
@@ -12,7 +10,8 @@ Generating SSH key pairs requires software that also allows you to connect to a 
 
 PuTTY handles key generation differently, as the PuTTYGen program is graphical. However, the interface makes key generation very self-explanatory (it simply involves moving your mouse cursor around your screen). The resulting key files can be saved and, as with the public key file saved by OpenSSH's shh-keygen program, open your new public key file in your favourite text editor, copy all its text and paste it in the Public SSH Key section of our signup page when submitting your registration form.
 
-### Logging into Thunix through SSH
+# Logging into Thunix through SSH
+
 ---
 
 Now that you have an account with us, it's time for you to connect to our server with an SSH client program. On all operating systems using OpenSSH Client, it's a simple matter of opening a terminal and running the command `ssh -i [path_to-private_key] [username]@thunix.net`, where `[path_to-private_key]` is the directory path to your previously generated private SSH key and where `[username]` is the username you registered when signing up for our services.
