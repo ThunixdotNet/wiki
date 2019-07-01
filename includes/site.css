@@ -64,13 +64,13 @@ body {
 }
 #content {
 	width: 78%;
-	float: left;
+	float: right;
 	font-size: medium;
 }
 
 #sidebar {
 	width: 18%;
-	float: right;
+	float: left;
 	font-size: small;
 }
 
