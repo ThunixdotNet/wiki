@@ -1,5 +1,7 @@
 <?php
 
+include('config.php');
+
 $page = $_GET['page'];
 
 if ( $page == "") {
@@ -9,27 +11,28 @@ if ( $page == "") {
 print "<!DOCTYPE html>
 <html lang='en'>
 	<head>
-		<title>Thunix Wiki - $page</title>
-		<link rel='stylesheet' type='text/css' href='/includes/site.css'>
+		<title>$site_name - $page</title>
+		<link rel='stylesheet' type='text/css' href='$site_root/includes/site.css'>
 	</head>
 	<body>";
-echo ( shell_exec("/usr/bin/pandoc includes/header.md") );
+echo ( shell_exec("/usr/bin/pandoc $doc_root/includes/header.md") );
 
-print "<hr>
+print "<hr/>
 	<div id='body' style='width: 90%;'>
 		<div id='sidebar' style='width: 20%;float:left;'>";
-echo ( shell_exec("/usr/bin/pandoc includes/sidebar.md") );
+echo ( shell_exec("/usr/bin/pandoc $doc_root/includes/sidebar.md") );
 
 print "	</div>
-	<div id='content' style='width: 78%; float:right;'>";
+	<div id='content' style='width: 80%; float:right;'>";
 
-echo ( shell_exec("/usr/bin/pandoc articles/$page.md") );
+echo ( shell_exec("/usr/bin/pandoc $doc_root/articles/$page.md") );
 
 print "	</div>
-	</div><hr>
-	<div id='footer' style='clear:both;'>";
+	</div>
+	<div id='footer' style='clear:both;'>
+	<hr/>";
 
-echo ( shell_exec("/usr/bin/pandoc includes/footer.md") );
+echo ( shell_exec("/usr/bin/pandoc $doc_root/includes/footer.md") );
 
 print "		</div>
 	</body>
