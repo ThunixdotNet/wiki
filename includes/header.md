@@ -1,3 +1,1 @@
-<center>
-# Thunix Wiki
-</center>
+<h1 style="text-align: center;">Thunix Wiki</h1>
