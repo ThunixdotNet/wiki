@@ -11,9 +11,9 @@ if ( $page == "") {
 print "<!DOCTYPE html>
 <html lang='en'>
 	<head>
-		<title>$site_name - $page</title>
-		<link rel='stylesheet' type='text/css' href='" + $site_root + "includes/site.css'>
-	</head>
+		<title>$site_name - $page</title>"
+		echo "<link rel='stylesheet' type='text/css' href='" + $site_root + "includes/site.css'>"
+	print "</head>
 	<body>";
 echo ( shell_exec("/usr/bin/pandoc $doc_root/includes/header.md") );
 
