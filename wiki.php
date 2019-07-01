@@ -45,10 +45,10 @@ print "		</div>
 <!-- End Body -->
 
 	</div>
+    <hr>
 
 <!-- Begin Footer -->
 	<div id='footer'>
-	<hr>
 ";
 
 echo ( shell_exec("/usr/bin/pandoc $doc_root/includes/footer.md") );
