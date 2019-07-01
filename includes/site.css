@@ -1,11 +1,12 @@
 body {
   font-size: 10pt;
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-  color: black;
+  color: #3EE77B;
   line-height: 14pt;
   padding-left: 5pt;
   padding-right: 5pt;
   padding-top: 5pt;
+  background-color: #040304;
 }
 
 
