@@ -14,27 +14,48 @@ print "<!DOCTYPE html>
 		<title>$site_name - $page</title>
 		<link rel='stylesheet' type='text/css' href='$site_root/includes/site.css'>
 	</head>
-	<body>";
+	<body>
+<!-- Begin Header -->
+
+	<div id='header'>";
+
 echo ( shell_exec("/usr/bin/pandoc $doc_root/includes/header.md") );
+print "
+		</div>
+<!-- End Header -->
+";
 
 print "<hr>
-	<div id='body' style='width: 90%;'>
-		<div id='sidebar' style='width: 20%;float:left;'>";
+	<div id='body'>
+
+<!-- Begin Sidebar  -->
+		<div id='sidebar'>
+";
 echo ( shell_exec("/usr/bin/pandoc $doc_root/includes/sidebar.md") );
 
-print "	</div>
-	<div id='content' style='width: 80%; float:right;'>";
+print "		</div>
+<!-- End Sidebar -->
+
+<!-- Begin Body -->
+		<div id='content'>";
 
 echo ( shell_exec("/usr/bin/pandoc $doc_root/articles/$page.md") );
 
-print "	</div>
+print "		</div>
+<!-- End Body -->
+
 	</div>
-	<div id='footer' style='clear:both;'>
-	<hr>";
+
+<!-- Begin Footer -->
+	<div id='footer'>
+	<hr>
+";
 
 echo ( shell_exec("/usr/bin/pandoc $doc_root/includes/footer.md") );
 
-print "		</div>
+print "	</div>
+<!-- End Footer -->
+
 	</body>
 </html>";
 ?>
