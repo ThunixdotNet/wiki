@@ -13,7 +13,7 @@ print "<!DOCTYPE html>
 	<head>
 		<title>$site_name - $page</title>
 		<link rel='stylesheet' type='text/css' href='$site_root/includes/site.css'>
-	print "</head>
+	</head>
 	<body>";
 echo ( shell_exec("/usr/bin/pandoc $doc_root/includes/header.md") );
 
