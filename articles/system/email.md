@@ -30,4 +30,4 @@ Thunix uses the Rainloop web interface to give users email access through their 
 
 You can also access thunix email using your favourite client software, including but not limited to Mozilla Thunderbird, Microsoft Office Outlook, Claws Mail or any email client that supports IMAP. The below picture illustrates the settings needed to configure your email client to fetch mail from thunix. Though it shows Thunderbird's configuration menu, this applies to all email client programs.
 
-![Email COnfiguration](https://www.thunix.net/images/mail.png)
+<img style="max-width:50%;" src="https://www.thunix.net/images/mail.png">
