@@ -1,74 +1,42 @@
-man {#man align="center"}
-===
+man(8) Ansible on Thunix man(8)
 
-[NAME](#NAME)\
-[SYNOPSIS](#SYNOPSIS)\
-[DESCRIPTION](#DESCRIPTION)\
-[SEE ALSO](#SEE%20ALSO)\
-[BUGS](#BUGS)\
-[AUTHOR](#AUTHOR)\
+NAME Ansible on Thunix - how we manage the server
 
-------------------------------------------------------------------------
+SYNOPSIS ansible-pull
 
-NAME []()
----------
+DESCRIPTION We use ansible to manage the servers running the systems and
+services for Thunix. Ansible consists of a "playbook" of YAML files,
+that declare the state of the system.
 
-Ansible on Thunix - how we manage the server
+       The first step is to clone the repo used to manage the environment:
 
-SYNOPSIS []()
--------------
+       git clone git@ttm.sh:thunix/ansible.git (You will need a tidegit account for this, and a key loaded into your account there)
 
-ansible-pull
+       From there, the typical github-type workflow is used:
 
-DESCRIPTION []()
-----------------
+       * Create a local branch, to track your issue's changes.
 
-We use ansible to manage the servers running the systems and services
-for Thunix. Ansible consists of a "playbook" of YAML files, that declare
-the state of the system.
+       * Commit changes to your local branch.
 
-The first step is to clone the repo used to manage the environment:
+       * Send a URI pointing to your repo, with branch name to someone with merge permissions
 
-git clone git@ttm.sh:thunix/ansible.git (You will need a tidegit account
-for this, and a key loaded into your account there)
+       Inside of the tildegit interface:
 
-From there, the typical github-type workflow is used:
+       * Create a new branch, selecting option to create a branch and pull request
 
-\* Create a local branch, to track your issue’s changes.
+       * Make changes in your branch
 
-\* Commit changes to your local branch.
+       * Update PR
 
-\* Send a URI pointing to your repo, with branch name to someone with
-merge permissions
+       * Wait for someone to merge your changes
 
-Inside of the tildegit interface:
+       Hourly, a job runs that pulls the latest version of the repo, and the runs ansible-playbook against the playbook.  A sudoer can manually run this job, if desired,
+       and it's located at /etc/cron.hourly/ansible-pull.
 
-\* Create a new branch, selecting option to create a branch and pull
-request
+SEE ALSO tildegit.org(8), git(8), ansible-playbook(8)
 
-\* Make changes in your branch
+BUGS No known bugs.
 
-\* Update PR
+AUTHOR Uber Geek (ubergeek@thunix.net)
 
-\* Wait for someone to merge your changes
-
-Hourly, a job runs that pulls the latest version of the repo, and the
-runs ansible-playbook against the playbook. A sudoer can manually run
-this job, if desired, and it’s located at /etc/cron.hourly/ansible-pull.
-
-SEE ALSO []()
--------------
-
-tildegit.org(8), git(8), ansible-playbook(8)
-
-BUGS []()
----------
-
-No known bugs.
-
-AUTHOR []()
------------
-
-Uber Geek (ubergeek@thunix.net)
-
-------------------------------------------------------------------------
+1.1 19 February 2019 man(8)
