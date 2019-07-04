@@ -1,5 +1,6 @@
-* [Home](main)
-* [Contributing](/wiki/contributing)
+* [Home](/main)
+* [User Contributed Pages](/wiki/main)
+* [System Generated Pages](/system/main)
 * [Sandbox](/sandbox)
 
 * [Thunix.net](https://thunix.net)
