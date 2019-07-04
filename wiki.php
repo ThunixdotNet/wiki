@@ -1,9 +1,16 @@
 <?php
+/*
+This code is Copyright(c) 2019 by ubergeek under the GPL 3 or later.
+Parsedown is licensed under the MIT license.
+*/
 
 include('config.php');
+include('parsedown-1.7.3/Parsedown.php');
 
 $page = $_GET['page'];
 $style = $_GET['style'];
+$Parsedown = new Parsedown();
+$Parsedown->setSafeMode(true);
 
 if ( $page == "") {
 	$page = "main";
@@ -17,6 +24,11 @@ if ( $style == "") {
 else {
 	$site_style=$style;
 }
+
+$header  = file_get_contents("$doc_root/includes/header.md");
+$sidebar = file_get_contents("$doc_root/includes/sidebar.md");
+$content = file_get_contents("$doc_root/articles/$page.md");
+$footer  = file_get_contents("$doc_root/includes/footer.md");
  
 print "<!DOCTYPE html>
 <html lang='en'>
@@ -29,7 +41,8 @@ print "<!DOCTYPE html>
 
 	<div id='header'>";
 
-echo ( shell_exec("/usr/bin/pandoc $doc_root/includes/header.md") );
+print $Parsedown->text($header);
+
 print "
 		</div>
 <!-- End Header -->
@@ -41,7 +54,8 @@ print "<hr>
 <!-- Begin Sidebar  -->
 		<div id='sidebar'>
 ";
-echo ( shell_exec("/usr/bin/pandoc $doc_root/includes/sidebar.md") );
+
+echo $Parsedown->text($sidebar);
 
 print "		</div>
 <!-- End Sidebar -->
@@ -49,7 +63,7 @@ print "		</div>
 <!-- Begin Body -->
 		<div id='content'>";
 
-echo ( shell_exec("/usr/bin/pandoc $doc_root/articles/$page.md") );
+echo $Parsedown->text($content);
 
 print "		</div>
 <!-- End Body -->
@@ -61,7 +75,7 @@ print "		</div>
 	<hr>
 ";
 
-echo ( shell_exec("/usr/bin/pandoc $doc_root/includes/footer.md") );
+echo $Parsedown->text($footer);
 
 print "	</div>
 <!-- End Footer -->
