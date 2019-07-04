@@ -1,5 +1,5 @@
-* [Home](/)
-* [Contributing](/system/contributing)
+* [Home](main)
+* [Contributing](/wiki/contributing)
 * [Sandbox](/sandbox)
 
 * [Thunix.net](https://thunix.net)
