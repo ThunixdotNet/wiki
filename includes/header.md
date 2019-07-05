@@ -1,1 +1,1 @@
-Thunix Wiki
+☣  Thunix Wiki  ☣
