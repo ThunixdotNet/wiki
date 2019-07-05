@@ -5,8 +5,6 @@ This is a multi-contributor project created to give useful guides & documentatio
 If you have any questions about the project, feel free to Direct Message ``xdovahkinx`` on IRC, or any of the other contributors/staff @ ``#thunix``.
 From all the contributors and staff at **Thunix**, we hope you enjoy the project and find it helpful and informative!
 
-## To the [Table of Contents](tableofcontents)
-
 Further notes;
 
   - This project is maintained at the leisure of its contributors. You might find out-of-date info or content. Each contributor is only responsible for their commits, and the topics they contribute.
