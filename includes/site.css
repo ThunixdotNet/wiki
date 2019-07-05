@@ -70,7 +70,7 @@ body {
 
 #content img {
   max-height: 400px;
-  width: auto;
+  max-width: 98%; 
 }
 
 #sidebar {
