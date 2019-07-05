@@ -68,6 +68,11 @@ body {
 	font-size: medium;
 }
 
+#content img {
+  max-height: 400px;
+  width: auto;
+}
+
 #sidebar {
 	width: 18%;
 	float: left;
