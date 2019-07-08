@@ -5,5 +5,4 @@
 * [Using SSH with thunix](/wiki/ssh)
 * [Iris](/wiki/iris)
 * [Databases](/wiki/databases)
-    * [dbremove](/wiki/dbremove)
-    * [makedb](/wiki/makedb)
+* [Admin Tools](/wiki/admintools)
