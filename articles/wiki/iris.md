@@ -9,3 +9,6 @@ To use iris, once logged into your shell account, just type `iris`.
 Once there, type `t` to see the topics.  To read a topic, just type the topic number.  To reply, `r` followed by the topic number.
 
 To quite, just type `q`.
+
+## See Also
+* [iris](/system/iris)
