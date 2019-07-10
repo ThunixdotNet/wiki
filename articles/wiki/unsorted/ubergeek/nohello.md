@@ -1,6 +1,6 @@
 # Don't Just Say 'Hello' In Chat
 
-For another article about this, see [nohello.com](https://nohello.com).
+For another article about this, see [nohello.com](http://nohello.com).
 
 Just saying "Hello", and nothing else in a chat room is just as bad as [asking to ask](askingtoask).  Just saying "Hello" does two kinda bad things:
 
