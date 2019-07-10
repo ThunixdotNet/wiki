@@ -2,6 +2,7 @@
 
 ### Definitions:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[My Favorite](https://www.urbandictionary.com/define.php?term=contributing)
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[The Actual Definition](https://www.dictionary.com/browse/contributing)
 
 ### The Answer to the Title.
@@ -12,6 +13,7 @@ The basic goal is to ease off some of the pressure on the given leadership of th
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contributing is a great way to give back to a community you love and support where you cannot be part of the staff team or compensate some other way, usually financially.
 It is understandable that everyone cannot pitch in through these other means, as everyone is on their own walks of life, so these little things add up and help make a community like Thunix what it is.
 
+***
 Take my personal case for example:
 
 I (dovahkin) have been part of Thunix for a good while, about 2(ish) years. I was part of the original Thunix, and honestly was shocked when I heard about the service!
@@ -29,10 +31,10 @@ I proposed I head and maintain the wiki, as a sort of weekend project; just some
 Something so innocuous, as this little weekend project, turned into a major part of Thunix, and set an example of how powerful small contributions are.
 With every push to this wiki, is one less thing that the SysAdmins have to explain to the skid asking questions in IRC (Which is usually me, lets be real....).
 
-At this point, I am rambling... You get the poimt? Contributing is an effective means to help where one cannot by other means.
+At this point, I am rambling... You get the point? Contributing is an effective means to help where one cannot by other means.
 
 ### Cool story bro, now how the fuck is that relevant to outside of Thunix?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The point was this; No matter how big or small a contribution might be, it has the potential to really affect the entire ecosystem.
 
-Now, let's talk about the giant in the room, being the way most might be familiar with contributing to; [Git/Version Control.](/wiki/contrib/top1_sub1). Prepare yourself for a crash-course and generic overview of Git. (We will probably release a dedicated topic for just git Eventually <sup>TM</sup>)
+Now, let's talk about the giant in the room, being the way most might be familiar with contributing to; [Git/Version Control.](/wiki/contrib/top1_sub1). Prepare yourself for a crash-course and generic overview of Git. (We will probably release a dedicated topic for just git EventuallyTM)
