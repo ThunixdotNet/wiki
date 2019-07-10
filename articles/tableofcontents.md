@@ -7,7 +7,8 @@
     3. Thunix Rules and Policies
     4. How can I help?
     5. Where is Thunix?
-    6. Contributions Directory
+    6. [Contributions Directory](/wiki/Thunix/contribdir)
+    7. [System-Generated Pages](/system/main)
 
   - Chapter 2 - SSH Shit.
     1. To Be Linked. (WIP)
@@ -20,7 +21,7 @@
       - General "Rule of Thumb"s
       - Workflow
       - Etiquette
-      - Methods of.
+      - Methods of
     3. Contrib'ing to Thunix
       - Guidelines & Proceedures
       - Methods Available
@@ -29,3 +30,6 @@
 
   - Chapter 4 - The Wiki
     1. TBA/Planned. See Contributions Directory.
+
+  - [Unsorted Pages](/wiki/unsorted/main)
+    - [Sandbox](/sandbox)
