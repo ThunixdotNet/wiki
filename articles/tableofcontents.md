@@ -14,10 +14,10 @@
     1. To Be Linked. (WIP)
 
   - Chapter 3 - Contributing
-    1. What is "Contributing"?
+    1. [What is "Contributing"?](/wiki/contrib/top1)
       - Git Crash Course
       - History and Usage
-    2. How to Contrib.
+    2. How to Contrib. (Using Git)
       - General "Rule of Thumb"s
       - Workflow
       - Etiquette
