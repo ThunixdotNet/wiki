@@ -1,6 +1,6 @@
 # Don't Ask to Ask
 
-Don't ask to ask a question in [chat](/system/chat), or on [iris](/wiki/iris).  Just ask your question!
+Don't ask to ask a question in [chat](/wiki/system/chat), or on [iris](/wiki/iris).  Just ask your question!
 
 Asking to ask is pointless.  Either someone will answer your question, or they wont.  Corollary:  [Don't be Impatient](/wiki/unsorted/ubergeek/impatient).  Sometimes, people are busy, and might take more than 10 seconds to respond.
 
