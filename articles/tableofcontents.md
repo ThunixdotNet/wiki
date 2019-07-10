@@ -7,14 +7,14 @@
     3. Thunix Rules and Policies
     4. How can I help?
     5. Where is Thunix?
-    6. [Contributions Directory](/wiki/Thunix/contribdir)
+    6. [Contributions Directory](/Thunix/contribdir)
     7. [System-Generated Pages](/system/main)
 
   - Chapter 2 - SSH Shit.
     1. To Be Linked. (WIP)
 
   - Chapter 3 - Contributing
-    1. [What is "Contributing"?](/wiki/contrib/top1)
+    1. [What is "Contributing"?](/contrib/top1)
       - Git Crash Course
       - History and Usage
     2. How to Contrib. (Using Git)
