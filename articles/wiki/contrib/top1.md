@@ -35,4 +35,4 @@ At this point, I am rambling... You get the poimt? Contributing is an effective 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The point was this; No matter how big or small a contribution might be, it has the potential to really affect the entire ecosystem.
 
-Now, let's talk about the giant in the room, being the way most might be familiar with contributing to; [Git/Version Control.](/top1_sub1). Prepare yourself for a crash-course and generic overview of Git. (We will probably release a dedicated topic for just git Eventually <sup>TM</sup>)
+Now, let's talk about the giant in the room, being the way most might be familiar with contributing to; [Git/Version Control.](/wiki/contrib/top1_sub1). Prepare yourself for a crash-course and generic overview of Git. (We will probably release a dedicated topic for just git Eventually <sup>TM</sup>)

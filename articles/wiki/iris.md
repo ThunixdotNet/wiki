@@ -11,4 +11,4 @@ Once there, type `t` to see the topics.  To read a topic, just type the topic nu
 To quite, just type `q`.
 
 ## See Also
-* [iris](/system/iris)
+* [iris](/wiki/system/iris)
