@@ -5,11 +5,11 @@ For another article about this, see [nohello.com](https://nohello.com).
 Just saying "Hello", and nothing else in a chat room is just as bad as [asking to ask](askingtoask).  Just saying "Hello" does two kinda bad things:
 
 * Interrupts the person you're asking.
-  * The person you're interrupting is likely in the middle of something.  A chat client "pings" them, and they go to check (Stopping what they are doing).
-  * If you just say,"Hello", you've given them no information, and thusly, interrupted them needlessly.
+    * The person you're interrupting is likely in the middle of something.  A chat client "pings" them, and they go to check (Stopping what they are doing).
+    * If you just say,"Hello", you've given them no information, and thusly, interrupted them needlessly.
 * It wastes time to resolution for your problem
-  * If you say,"Hello", you wait 30-60 seconds, for the other person to say "Hi back".  Then they spend 30-60 seconds waiting for you to say what it is you need.  That's 60 second to 120 seconds to even begin researching the answer.
-  * If instead, you say,"Hello, I have a problem with my key.  Here is the pastebin for it, can you check, please?", instantly that person has all the info to begin answering your question.  We saved 60-120 seconds of everyone's time!
+    * If you say,"Hello", you wait 30-60 seconds, for the other person to say "Hi back".  Then they spend 30-60 seconds waiting for you to say what it is you need.  That's 60 second to 120 seconds to even begin researching the answer.
+    * If instead, you say,"Hello, I have a problem with my key.  Here is the pastebin for it, can you check, please?", instantly that person has all the info to begin answering your question.  We saved 60-120 seconds of everyone's time!
 
 Example of bad convo:
 
