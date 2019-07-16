@@ -10,7 +10,7 @@ Your email can be accessed in one of three ways:
 2. Logging into your email account from our [Rainloop web mail](https://www.thunix.net/webmail/) service
 3. Through an email client program installed on your computer, using IMAP
 
-Unlike the email services provided by Microsoft, Yahoo, Google and other providers, who intrusively spy on its users beyond reasonable law enforcement and advertising tactics, thunix email services will always respect user privacy, as you can see through our [GDPR Statement and Privacy Policy](https://www.thunix.net/gdpr.php).
+Unlike the email services provided by Microsoft, Yahoo, Google and other providers, who intrusively spy on its users beyond reasonable law enforcement and advertising tactics, thunix email services will always respect user privacy, as you can see through our [GDPR Statement and Privacy Policy](https://www.thunix.net/gdpr).
 
 ## Mutt and Alpine Email Clients
 
