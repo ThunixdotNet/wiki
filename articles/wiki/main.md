@@ -10,4 +10,5 @@
 * [Iris](/wiki/iris)
 * [Databases](/wiki/databases)
 * [Admin Tools](/wiki/admintools)
+* [VNC](/wiki/vnc)
 * ~~Unsorted~~ (See Table of Contents)
