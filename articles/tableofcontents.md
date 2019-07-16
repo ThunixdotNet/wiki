@@ -1,7 +1,7 @@
 # Table of Contents
 
   - Chapter 1 - Thunix and You.
-    1. What the fuck is Thunix?
+    1. What is Thunix?
       - History of Thunix
     2. Staff Bios
     3. Thunix Rules and Policies

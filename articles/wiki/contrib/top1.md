@@ -33,7 +33,7 @@ With every push to this wiki, is one less thing that the SysAdmins have to expla
 
 At this point, I am rambling... You get the point? Contributing is an effective means to help where one cannot by other means.
 
-### Cool story bro, now how the fuck is that relevant to outside of Thunix?
+### Cool story bro, now how is that relevant to outside of Thunix?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The point was this; No matter how big or small a contribution might be, it has the potential to really affect the entire ecosystem.
 
