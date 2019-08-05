@@ -10,7 +10,7 @@
     6. [Contributions Directory](/wiki/Thunix/contribdir)
     7. [System-Generated Pages](/wiki/system/main)
 
-  - Chapter 2 - SSH Shit.
+  - Chapter 2 - SSH Tips and Tricks
     1. To Be Linked. (WIP)
 
   - Chapter 3 - Contributing
