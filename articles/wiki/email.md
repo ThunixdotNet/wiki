@@ -9,7 +9,7 @@ Your email can be accessed in one of three ways:
 1. Running the Mutt or Alpine email clients through your SSH account
 2. Logging into your email account from our [Rainloop web mail](https://www.thunix.net/webmail/) service
 3. Through an email client program installed on your computer, using IMAP or POP
-
+4. Some other tool, such as [getmail](/wiki/unsorted/lugubris/getmail)
 Unlike the email services provided by Microsoft, Yahoo, Google and other providers, who intrusively spy on its users beyond reasonable law enforcement and advertising tactics, thunix email services will always respect user privacy, as you can see through our [GDPR Statement and Privacy Policy](https://www.thunix.net/gdpr).
 
 ## Mutt and Alpine Email Clients
@@ -30,4 +30,4 @@ Thunix uses the Rainloop web interface to give users email access through their 
 
 You can also access thunix email using your favourite client software, including but not limited to Mozilla Thunderbird, Microsoft Office Outlook, Claws Mail or any email client that supports IMAP. The below picture illustrates the settings needed to configure your email client to fetch mail from thunix. Though it shows Thunderbird's configuration menu, this applies to all email client programs.
 
-![Email settings in a Thunderbird dialog](https://www.thunix.net/images/mail.png)
+![Email settings in a Thunderbird dialog](https://www.thunix.net/media/mail.png)
