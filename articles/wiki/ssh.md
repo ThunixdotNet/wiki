@@ -14,6 +14,8 @@ Will generate both the public and private SSH key files for you. You would be pr
 
 PuTTY handles key generation differently, as the PuTTYGen program is graphical. However, the interface makes key generation very self-explanatory (it simply involves moving your mouse cursor around your screen). The resulting key files can be saved and, as with the public key file saved by OpenSSH's shh-keygen program, open your new public key file in your favourite text editor, copy all its text and paste it in the Public SSH Key section of our signup page when submitting your registration form.
 
+[ConnectBot](https://f-droid.org/en/packages/org.connectbot/) is the SSH client available for Android smartphone. You can generate an type rsa 2048 bits and copy this public key, in the "Manage Public Keys" menu.
+
 ## Logging into Thunix through SSH
 
 ---
