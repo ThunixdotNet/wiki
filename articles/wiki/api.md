@@ -12,6 +12,8 @@ The API shall return a 401 for unauthenticated requests.
 
 The API shall return a 403 for requests which are authenticated, but not permissible for the authenticated user.
 
+The API shall return a 418 for requests to the "/teapot" endpoint.
+
 The API shall return a 420 for requests exceeding the rate limits.
 
 The API shall return a 501 for requests which exist in the spec, but have not been implmented yet.
@@ -60,5 +62,17 @@ This will return a struct of system uptime:
    "hours":16,
    "mins":22,
    "secs":3
+}
+```
+
+### teapot
+
+This shall return a struct, describing the current tea making capabilities of the system:
+
+```
+{
+   "tea" : "available",
+   "height" : "short",
+   "width" : "stout
 }
 ```
