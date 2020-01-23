@@ -24,7 +24,7 @@ The API shall return a 501 for requests which exist in the spec, but have not be
 The API is a RESTful API, and the following URIs will be used:
 
 ```
-https:{hostname}/api/1/{action}
+https://{hostname}/api/1/{action}
 ```
 
 
@@ -32,7 +32,7 @@ https:{hostname}/api/1/{action}
 
 ### ip_info
 
-This endpoint shall return a json struct containing interfaces, and IP addresses in CIDR format:
+This endpoint shall return a JSON payload containing interfaces, and IP addresses in CIDR format:
 
 
 ```
@@ -57,7 +57,7 @@ This endpoint shall return a json struct containing interfaces, and IP addresses
 
 ### uptime
 
-This will return a struct of system uptime:
+This will return a JSON payload of system uptime:
 
 ```
 {
@@ -70,7 +70,7 @@ This will return a struct of system uptime:
 
 ### teapot
 
-This shall return a struct, describing the current tea making capabilities of the system:
+This shall return a JSON payload, describing the current tea making capabilities of the system:
 
 ```
 {
