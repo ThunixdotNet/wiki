@@ -16,7 +16,7 @@ The API shall return a 418 for requests to the "/teapot" endpoint.
 
 The API shall return a 420 for requests exceeding the rate limits.
 
-The API shall return a 501 for requests which exist in the spec, but have not been implmented yet.
+The API shall return a 501 for requests which exist in the spec, but have not been implemented yet.
 
 
 ## API Format
@@ -32,26 +32,33 @@ https://{hostname}/api/1/{action}
 
 ### ip_info
 
-This endpoint shall return a JSON payload containing interfaces, and IP addresses in CIDR format:
+This endpoint shall return a JSON payload containing interfaces, with the name, address, and netmask: 
 
 
 ```
 {
-    "Interfaces":[
-      {
-         "Name":"eth0",
-         "Addresses":[
-            "10.0.0.1/32",
-            "10.0.1.100/24"
-            ]
-        },
-        {
-             "Name":"wg0",
-             "Addresses":[
-                "192.168.0.1/24"
-            ]
-        }
-    ]
+        "Interfaces":[
+                {
+                        "Interface":"lo",
+                        "Address":"127.0.0.1",
+                        "Netmask":"255.0.0.0"
+                },
+                {
+                        "Interface":"eth0",
+                        "Address":"213.239.234.117",
+                        "Netmask":"255.255.255.255"
+                },
+                {
+                        "Interface":"client1",
+                        "Address":"10.0.1.1",
+                        "Netmask":"255.255.255.0"
+                },
+                {
+                        "Interface":"wg-p2p",
+                        "Address":"10.0.0.5",
+                        "Netmask":"255.255.255.0"
+                }
+        ]
 }
 ```
 
