@@ -8,10 +8,6 @@ include('config.php');
 include('parsedown-1.7.3/Parsedown.php');
 
 $page = $_GET['page'];
-if (isset($_GET['style']))
-{
-	 $style = $_GET['style'];
-}
 $Parsedown = new Parsedown();
 $Parsedown->setSafeMode(true);
 
@@ -19,14 +15,10 @@ if ( $page == "") {
 	$page = "main";
 	}
 
-if (empty($style)) {
-	if ( $site_style == "") {
-		$site_style="site";
-	}
-}
-else {
-	$site_style=$style;
-}
+if(isset($_GET['style']))
+	$site_style = $_GET['style'];
+else
+	$site_style="site";
 
 $header  = file_get_contents("$doc_root/includes/header.md");
 $sidebar = file_get_contents("$doc_root/includes/sidebar.md");
