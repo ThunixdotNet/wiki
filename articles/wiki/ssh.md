@@ -6,13 +6,15 @@ When you [sign up](https://www.thunix.net/signup) for an account on thunix, you'
 
 On our signup page, you'll seen an entry for a "Public SSH Key." SSH key pairs work on the basis of having two files; one is a public key that you can send to us when we create your account, while the other is a private key that you keep on your computer, away from public knowledge. If you're wondering where to find these things, you have to generate them yourself.
 
-Generating SSH key pairs requires software that also allows you to connect to a shell server using SSH (such as OpenSSH or PuTTY). On Windows and UNIX-like operating systems with OpenSSH Client software installed, including all Linux variants, BSD variants and macOS, the terminal command:
+Generating SSH key pairs requires software that also allows you to connect to a shell server using SSH (such as OpenSSH, ConnectBot, Termius, OpenSSH-Win32/64 or PuTTY).
+
+With [OpenSSH](http://www.openssh.com/) Client software installed on Windows and UNIX-like operating systems, including all Linux variants, BSD variants and macOS, the terminal command:
 
 `ssh-keygen`
 
 Will generate both the public and private SSH key files for you. You would be prompted for a file name to save the key files as, then a passphrase to help generate the files from. Then, out of the two files, open the public key file (the file with the file suffix \*.pub) in your favourite text editor, copy all its text and paste it in the Public SSH Key section of our signup page when submitting your registration form.
 
-PuTTY handles key generation differently, as the PuTTYGen program is graphical. However, the interface makes key generation very self-explanatory (it simply involves moving your mouse cursor around your screen). The resulting key files can be saved and, as with the public key file saved by OpenSSH's shh-keygen program, open your new public key file in your favourite text editor, copy all its text and paste it in the Public SSH Key section of our signup page when submitting your registration form.
+[PuTTY](https://www.putty.org/) handles key generation differently, as the PuTTYGen program is graphical. However, the interface makes key generation very self-explanatory (it simply involves moving your mouse cursor around your screen). The resulting key files can be saved and, as with the public key file saved by OpenSSH's shh-keygen program, open your new public key file in your favourite text editor, copy all its text and paste it in the Public SSH Key section of our signup page when submitting your registration form.
 
 [ConnectBot](https://f-droid.org/en/packages/org.connectbot/) is the SSH client available for Android smartphone. You can generate an type rsa 2048 bits and copy this public key, in the "Manage Public Keys" menu.
 
