@@ -12,10 +12,10 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'main';
 // Sanitize page request so we don't allow to read EVERY markdown file
 // for example ../../../home/foobar/mysecretdocument
 if (strpos($page, "../") !== false) {
-    $content_file = "includes/nice_try.md";
-} else {
-    $content_file = "articles/$page.md";
+    header('HTTP/1.0 403 Forbidden');
+    exit();
 }
+$content_file = "articles/$page.md";
 
 $Parsedown = new Parsedown();
 $Parsedown->setSafeMode(true);
