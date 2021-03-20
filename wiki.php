@@ -7,13 +7,10 @@ Parsedown is licensed under the MIT license.
 include('config.php');
 include('parsedown-1.7.3/Parsedown.php');
 
-$page = $_GET['page'];
+$page = isset($_GET['page']) ? $_GET['page'] : 'main';
+
 $Parsedown = new Parsedown();
 $Parsedown->setSafeMode(true);
-
-if ( $page == "") {
-	$page = "main";
-	}
 
 if(isset($_GET['style']))
 	$site_style = $_GET['style'];
@@ -22,7 +19,8 @@ else
 
 $header  = file_get_contents("includes/header.md");
 $sidebar = file_get_contents("includes/sidebar.md");
-$content = file_get_contents("articles/$page.md");
+$content_file = "articles/$page.md";
+$content = file_exists($content_file) ? file_get_contents($content_file) : str_replace('$page', "$page", file_get_contents("includes/404.md"));
 $footer  = file_get_contents("includes/footer.md");
  
 print "<!DOCTYPE html>
