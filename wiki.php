@@ -29,12 +29,14 @@ $header  = file_get_contents("includes/header.md");
 $sidebar = file_get_contents("includes/sidebar.md");
 $content = file_exists($content_file) ? file_get_contents($content_file) : str_replace('$page', "$page", file_get_contents("includes/404.md"));
 $footer  = file_get_contents("includes/footer.md");
- 
+
+// TODO: Stylesheet URL assumes wiki is not operate in subfolder
+
 print "<!DOCTYPE html>
 <html lang='en'>
 	<head>
 		<title>$site_name - $page</title>
-		<link rel='stylesheet' type='text/css' href='$site_root/includes/$site_style.css'>
+		<link rel='stylesheet' type='text/css' href='/includes/$site_style.css'>
 	</head>
 	<body>
 <!-- Begin Header -->

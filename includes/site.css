@@ -88,3 +88,8 @@ body {
   text-align: center;
   padding-top: 30pt;
 }
+
+pre > code {
+    overflow-x: auto;
+    display: block;
+}
