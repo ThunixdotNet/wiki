@@ -9,6 +9,14 @@ include('parsedown-1.7.3/Parsedown.php');
 
 $page = isset($_GET['page']) ? $_GET['page'] : 'main';
 
+// Sanitize page request so we don't allow to read EVERY markdown file
+// for example ../../../home/foobar/mysecretdocument
+if (strpos($page, "../") !== false) {
+    $content_file = "includes/nice_try.md";
+} else {
+    $content_file = "articles/$page.md";
+}
+
 $Parsedown = new Parsedown();
 $Parsedown->setSafeMode(true);
 
@@ -19,7 +27,6 @@ else
 
 $header  = file_get_contents("includes/header.md");
 $sidebar = file_get_contents("includes/sidebar.md");
-$content_file = "articles/$page.md";
 $content = file_exists($content_file) ? file_get_contents($content_file) : str_replace('$page', "$page", file_get_contents("includes/404.md"));
 $footer  = file_get_contents("includes/footer.md");
  
