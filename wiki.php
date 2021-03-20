@@ -20,10 +20,10 @@ if(isset($_GET['style']))
 else
 	$site_style="site";
 
-$header  = file_get_contents("$doc_root/includes/header.md");
-$sidebar = file_get_contents("$doc_root/includes/sidebar.md");
-$content = file_get_contents("$doc_root/articles/$page.md");
-$footer  = file_get_contents("$doc_root/includes/footer.md");
+$header  = file_get_contents("includes/header.md");
+$sidebar = file_get_contents("includes/sidebar.md");
+$content = file_get_contents("articles/$page.md");
+$footer  = file_get_contents("includes/footer.md");
  
 print "<!DOCTYPE html>
 <html lang='en'>
