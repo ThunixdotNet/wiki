@@ -17,6 +17,10 @@ if (strpos($page, "../") !== false) {
 }
 $content_file = "articles/$page.md";
 
+// When you need some debugging
+//echo "<br>page: $page";
+//echo "<br>content file: $content_file";
+
 $Parsedown = new Parsedown();
 $Parsedown->setSafeMode(true);
 
