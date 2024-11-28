@@ -1,6 +1,6 @@
 ## Contributing to the wiki
 
-Just do a PR on [tildegit](https://tildegit.org/thunix/wiki)
+Just do a PR on [github](https://github.com/ThunixdotNet/wiki)
 
 We divide things into Topics and Subtopics, each with their own Folders. So for example: ./wiki/ssh/general/howto.md
 
