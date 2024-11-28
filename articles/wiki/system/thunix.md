@@ -6,17 +6,11 @@ SYNOPSIS ssh thunix.net
 
 ADMINISTRATORS List of system adminstrators are:
 
-       * amcclure  - Email: amcclure@thunix.net
-                     IRC: amcclure/irc.tilde.chat, amcclure/irc.freenode.net
+       * deepend  - Email: deepend@thunix.net
+                     IRC: deepend/irc.newnet.net
 
        * naglfar   - Email: naglfar@thunix.net
-                     IRC: Naglfar/irc.tilde.chat, Naglfar/irc.freenode.net
-
-       * ubergeek  - Email: ubergeek@thunix.net, ubergeek@yourtilde.com
-                   - IRC: ubergeek/irc.tilde.chat, ub3g33k/irc.freenode.net
-
-       * fosslinux - Email: fosslinux@thunix.net
-                   - IRC: fosslinux/irc.tilde.chat
+                     IRC: Naglfar/irc.newnet.net, Naglfar/irc.freenode.net
 
 DESCRIPTION Thunix is a publicly accesible Linux server, running Debian
 9, and managed using ansible playbooks.
